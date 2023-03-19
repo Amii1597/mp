@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/ba0d1d2f01.js" crossorigin="anonymous"></script> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    
+</head>
+ <body class="preload">
+    <div class="container">
+      <header class="header">
+     <div class="box">
+      <h1>ROCK</h1>
+      <h1>PAPER</h1>
+      <h1>SCISSORS</h1>
+     </div>
+     <div class="score">
+      <div class="score__title1" style="text-align: center;"> Computer Score</div>
+      <div class="score__number1" id="getset1">0</div>
+    </div>
+        <div class="score">
+          <div class="score__title" > Your Score</div>
+          <div class="score__number" id="getset">0</div>
+        </div>
+      
+      </header>
+      <section class="game">
+          <button class="choice-btn" data-choice="paper">
+          <div class="choice paper">
+            <img src="./images/icon-paper.svg" alt="paper" />
+          </div>
+          <div>
+            <img src="Line 1.png" class="line3">
+          </div>
+        </button>
+        <button class="choice-btn" data-choice="rock">
+          <div class="choice rock">
+            <img src="./images/icon-rock.svg" alt="rock" />
+       
+          </div>
+          <div>
+            <img src="Line 3.png" class="line1">
+          </div>
+        </button>
+        <button class="choice-btn" data-choice="scissors">
+          <div class="choice scissors">
+            <img src="./images/icon-scissors.svg" alt="scissors" />
+          </div>
+          <div>
+            <img src="Line 2.png" class="line2">
+          </div>
+        </button>
+      </section>
+    </div>
+
+    <section class="results hidden">
+      <h2 class="results__heading">you picked</h2>
+      <h2 class="results__heading">PC picked</h2>
+      <div class="results__result"></div>
+      <div class="results__winner hidden">
+        <h3 class="results__text" id="text11"></h3>
+        <button class="play-again">play again</button>
+        <a href="hurray.html">
+          <button class="next" type="hidden">Next</button>
+        </a>
+      </div>
+      <div class="results__result"></div>
+     
+    </section>
+    <!-- popup -->
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1 class="head">Game Rules</h1>
+        <div class="yellow" > 
+          <h2 class="y">Rock beats scissors, scissors beat paper, and paper beats rock.</h2>
+      </div>
+        <div class="yellow1" > 
+          <h2 class="y1">Agree ahead of time whether ou'll count off"rock,paper,scissors."</h2>
+      </div>
+        <div class="yellow2" > 
+          <h2 class="y2">Use rock,paper,scissors to settle minor decisions or simply play to pass the time</h2>
+      </div>
+        <div class="yellow3" > 
+          <h2 class="y3">if both players lay down the same hand, each player lays down another hand</h2>
+      </div>
+          <div class="close-btn" onclick="togglePopup()">&times;</div>
+   
+        </header>
+        
+      </div>
+      
+      <button class="rules-btn" onclick="togglePopup()">RULES</button>  
+    </div>
+
+  
+</body>
+<script src="app.js"></script>
+</html>

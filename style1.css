@@ -1,0 +1,86 @@
+*{
+    background-color: rgb(106, 201, 106);
+}
+.star1{
+    position: absolute;
+width: 115px;
+height: 115px;
+left: 388px;
+top: 198px;
+
+/* background: rgba(217, 217, 217, 0.83); */
+}
+.star7{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 830px;
+top: 173px;
+
+/* background: rgba(217, 217, 217, 0.83); */
+}
+.star3{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 503px;
+top: 86px;
+}
+.star4{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 610px;
+top: 122px;
+}
+.star6{
+    position: absolute;
+width: 130px;
+height: 130px;
+left: 762px;
+top: 246px;
+}
+.star5{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 496px;
+top: 351px;
+}
+.star2{
+    position: absolute;
+width: 103px;
+height: 103px;
+left: 710px;
+top: 86px;
+
+}
+.vector{
+    position: absolute;
+left: 39.52%;
+right: 40.83%;
+top: 31.61%;
+bottom: 47.15%;
+}
+.play-again2{
+   
+    position: absolute;
+    bottom:-1.5rem; 
+     right:36rem;
+    background:#fff;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 0.6rem;
+    
+    padding: 0.6rem 2.5rem;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+  }
+  .play-again2:focus {
+    border: 2px solid var(--outline);
+  }
+ 
+  
